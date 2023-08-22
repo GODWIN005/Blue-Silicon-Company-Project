@@ -1,0 +1,1159 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&display=swap');
+
+
+
+  *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  
+  }
+
+  body{
+   font-family: 'Poppins', sans-serif;
+  }
+
+
+  section{
+    margin-top: 3rem;
+  }
+  
+
+            /* Navbar_Section  */
+
+.navbar{
+ background-color: rgb(233, 181, 113);
+  width: 100%;
+              
+}
+
+  nav .logo {
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  nav .navbar-nav {
+    margin-left:30%;
+  }
+
+
+  nav .navbar-nav .nav-link {
+    margin-left:5px;
+    color: #3d3d3d;
+    font-weight:500;
+    font-size: 18px;
+  }
+
+
+             /* Header section  */
+
+
+#Header .header_container .header_left h1{
+    font-size:800;
+     max-width: 28rem;
+     height: 6.5rem;
+     margin:20px 0 0 20px;
+}
+
+#Header .header_container .header_left p{
+     max-width: 38rem;
+     margin: 25px 0 0 20px;
+     font-weight: 400;
+}
+
+#Header .header_container .header_left button{
+  border-radius: 20px;
+  margin: 35px 0 0 20px;
+     font-weight: 500;
+     background-color:rgb(248, 138, 11);
+     color: rgb(252, 252, 252);
+}
+
+#Header .header_container .header_right video{
+
+   margin-top:30px;
+   margin-left:65px;
+   margin-right: auto;
+   width:410px; height:280px;
+  
+}
+
+#Header .header_container .header_right{
+    position: relative;
+  
+}
+
+
+           /* Features Section  */
+
+
+ #Feature h2{
+       font-size: 2rem;
+       margin-left:8rem;
+       width: 20rem;
+       height: 5rem;
+ }  
+
+ .feature_container .row{
+    margin-top: 40px;
+    
+ }
+
+ .feature_container .feature_body .card{
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgb(51, 51, 51);
+ }
+
+ .feature_container .feature_body .card h5{
+    height: 1.6rem;
+ }
+ 
+ .feature_container .feature_body .card i{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    opacity: 1;
+    margin-top: 10PX;
+ }
+
+ .feature_container .feature_body .card i::before{
+  padding: .8rem 0;
+  background:rgb(248, 138, 11);
+  opacity: 1;
+  width: 6rem;
+  height: 5.8rem;
+  border-radius: 49% 51% 49% 51% / 17% 17% 83% 83%  ;
+  z-index:-1;
+}
+
+
+      /* Digital Section  */
+
+      #Digital .Digital_container .Digital_left h2{
+        font-size:800;
+         max-width: 20rem;
+         margin: 2rem 0 0 10px;
+       height: 5.4rem;
+    }
+    
+ 
+    #Digital .Digital_container .Digital_left p{
+         max-width: 38rem;
+         margin: 25px 0 0 10px;
+         font-weight: 600;
+
+    }
+    
+    #Digital .Digital_container .Digital_left button{
+      border-radius: 20px;
+      margin: 35px 0 0 10px;
+         font-weight: 500;
+         background-color:rgb(248, 138, 11);
+         color: rgb(252, 252, 252);
+    }
+    
+  
+    #Digital .Digital_container .Digital_right img {
+      margin-top: 30px; 
+      width:380px;
+      height:250px;
+      margin-left: -40px;
+    }
+
+
+       /* Skill section  */
+
+      #Skill .Skill_container h2{
+        font-size:800;
+        width: 20rem;
+         margin: 2rem 0 30px 10px;
+         height: 5.4rem;
+    }
+    
+    #Skill .Skill_container .Skill_left img{
+      width:460px;
+      height:350px;
+      margin-top: 10px;
+    }
+    
+    #Skill .Skill_container .Skill_right h6{
+      height: 1.5rem;
+    }
+    
+    #Skill .Skill_container .Skill_right .progress{
+       background-color: rgb(199, 198, 198);
+       margin: 5px 0;   
+    }
+    
+    #Skill .Skill_container .Skill_right .progress .progress-bar{ 
+      background-color:rgb(248, 138, 11);
+    }
+
+
+
+      /* client section  */
+
+
+ #Client  .Client_container h2{
+      font-size: 2rem;
+      width: 30rem;
+      margin-top: 2rem;
+      height: 5.4rem;
+}  
+
+.Client_container .row{
+   margin-top: 20px;
+}
+
+.Client_container .Client_left {
+  display:flex;
+  justify-content: space-evenly;
+  margin-left: -10px;
+}
+
+
+.Client_container .Client_left .card {
+  width: 16rem;
+  margin-top:20px;
+  margin-left: 30px;
+  text-align: center;
+  border: none;
+}
+
+.Client_container .Client_left .card i{
+  color: #000000;
+  font-size: 2rem;
+  height: 18vh;
+ }
+
+ 
+ .Client_container .Client_left .card h5{
+ height: 1.6rem;  
+  }
+
+
+ .Client_container .Client_left .card .card-body{
+  margin-top: -40px;
+  }
+
+.Client_container .Client_left .card i::before{
+  margin-top: 20px;
+  border-radius: 45%;
+padding: 1rem 0;
+background:rgb(248, 138, 11);
+border-radius: 49% 51% 49% 51% / 17% 17% 83% 83%  ;
+opacity: 1;
+ width: 4rem; 
+height: 4rem; 
+
+}
+
+.Client_container .Client_right {
+  padding-top: 6rem;
+}
+
+.Client_container .Client_right  img{
+  margin-top: -30px;
+  width:460px;
+  height:380px;
+}
+
+
+
+
+
+
+    /* Team Member Section  */
+
+
+#Team h2{
+  font-size: 2rem;
+  margin-left :7rem;
+  width: 20rem;
+  height: 5.4rem;
+}  
+
+.Team_container .row{
+margin-top: 40px;
+
+}
+
+.Team_container .Team_body .card{
+border-radius: 10px;
+box-shadow: 2px 2px  6px rgb(36, 35, 35);
+position: relative;
+width: 16rem;
+}
+
+.Team_container .Team_body .card img{
+   width: 8rem;
+   height: 8rem;
+   border-radius: 50%;
+   padding: 20px 20px;
+   
+  }
+
+.Team_container .Team_body .card  h4{
+     margin-top: 2rem;
+     margin-left: 8rem;
+     position: absolute;
+     height: 2rem;
+  }
+
+.Team_container .Team_body .card  h6{
+     margin-top: 4rem;
+     margin-left: 8rem;
+     position: absolute;
+     height: 1.6rem;
+  }
+
+.Team_container .Team_body .card  p{
+     margin-top: -1rem;
+  }
+
+.Team_container .Team_body .card i{
+background:rgb(248, 138, 11);
+color: #000;
+font-size: 18px;
+border-radius: 50%;
+padding: 5px;
+cursor: pointer;
+}
+
+  
+    /* Comment Section  */
+
+
+    #Comment h2{
+      font-size: 2rem;
+      margin-left:7rem;
+      width: 20rem;
+      margin-top: 4rem;
+      height: 2.6rem;
+    }  
+    
+    .Comment_container .row{
+    margin-top: 20px;
+    
+    }
+    
+    .Comment_container .Comment_body .card{
+    border: none;
+    position: relative;
+    }
+    
+    .Comment_container .Comment_body .card img{
+       width: 4rem;
+       height: 4rem;
+       border-radius: 50%;
+      }
+    
+    .Comment_container .Comment_body .card  h4{
+      margin-top: -2.5rem;
+      margin-left: 5rem;
+         position: absolute;
+         font-size: 16px;
+         height: 1.4rem;
+
+      }
+    
+    .Comment_container .Comment_body .card  h6{
+         margin-top: -4rem;
+         margin-left: 5rem;
+         position: absolute; 
+         height: 1.4rem;   
+      }
+    
+    .Comment_container .Comment_body .card  p{
+         margin-top: 1rem;
+      }
+    
+    .Comment_container .Comment_body .card i{
+    background:rgb(248, 138, 11);
+    color: #000;
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    } 
+
+
+     /* contact section  */
+
+
+  #Contact .Contact_container .Contact_left img {
+     height:420px;
+  }
+
+  #Contact .Contact_container .Contact_right {
+    background-color: rgb(233, 181, 113);
+  }
+
+  #Contact .Contact_container .Contact_right form{
+    padding: 30px 60px;
+    width: 80%;
+  }
+
+  #Contact .Contact_container .Contact_right input{
+ border: 1px solid #746e6e;
+  }
+
+
+  #Contact .Contact_container .Contact_right h2{
+      font-size:800;
+       max-width: 28rem;
+       margin: 20px 0 0 85px;
+       height: 5.4rem;
+  }
+  
+  #Contact .Contact_container .Contact_right button{
+      border-radius: 20px;
+      margin-top: 20px;
+      margin-left: 14rem;
+       font-weight: 500;
+       background-color:rgb(248, 138, 11);
+       color: rgb(252, 252, 252);
+  }
+  
+ 
+
+         /* footer Section  */
+
+
+  Footer{
+    margin-top: 30px;
+    background-color: rgb(32, 8, 32);
+    width: 100%;
+    height:35vh;
+    overflow-x: hidden;
+  }
+
+  Footer .footer_container .Footer-Nav{
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  Footer .footer_container .Footer-Nav .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   list-style: none;
+     border: 1px solid #fff;
+     color: #fff;
+     border-radius: .5rem;
+     text-align: center;
+  }
+
+  Footer .footer_container .Footer-Nav .nav-list h3 {
+    margin-top: 6px;
+
+  }
+
+  Footer .footer_container .Footer-Nav .nav-list ul li {
+    display: inline-flex;
+    margin:0px 10px;
+    margin-top: 10px;
+  }
+  
+    Footer .footer_container .icons {
+      margin-top: 5px;
+      margin-left: 26rem;
+      width: 400px;
+     height: 4rem;
+     padding-top: 20px;
+    }
+  
+    Footer .footer_container .icons i{
+     margin-left: 6px;
+      padding: 8px;
+      color: #fff;
+      border-radius: 50%;
+      border: 1px solid #fff;
+      cursor: pointer;
+    }
+
+
+  Footer .footer_container  .copyright{
+  width: 200px;
+  height:24px;
+  font-weight: 300;
+  margin: 5px auto;
+  color: #fff;
+  }
+
+
+  /* Responsive screen size */
+
+
+  @media(width >= 1025px) {
+
+    /* Navbar  */
+    
+    nav .navbar-nav {
+      margin-left:40%;
+    }
+    nav .navbar-nav .nav-link {
+      margin-left: 5px;
+      font-size: 16px;
+    }
+  
+    /* Header  */
+  
+   #Header .header_container .header_left p{
+     font-size: 20px;
+  }
+   #Header .header_container .header_right video{
+     margin-top:-10px;
+     margin-left:5px;
+     margin-right: auto;
+     width:480px; height:320px;
+  }
+  
+  /* Feature  */
+  
+  #Feature h2{
+    margin-left:4rem;
+    width: 40rem;
+
+  } 
+  
+   .feature_container .feature_body .card{
+     margin-top: 20px;
+      width: 16rem;
+   }
+
+    /* Digital  */
+
+ #Digital .Digital_container  {
+   margin-top: 20px;
+}
+ #Digital .Digital_container .Digital_right {
+  margin-top: -40px; 
+  width:420px;
+  height:420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#Digital .Digital_container .Digital_right img {
+  height:380px;
+  width: 600px;
+  margin-left: -10px;
+}
+
+  
+  
+    /* Client  */ 
+  
+    
+    .Client_container .Client_right  img{
+      width:460px;
+      height:380px;
+      margin-left: 15%;
+    }
+  
+    .Client_container .Client_left .card {
+      width: 12rem;
+      height: 18rem;
+      margin-left: 50px;
+       }
+  
+       
+       .Client_container .Client_left .card h5{
+          margin-top: -10px;
+          height: 2rem;
+          font-size: 18px;
+          }
+       .Client_container .Client_left .card P{
+          margin-top: -10px;
+    
+          }
+  
+  
+  
+      #Team h2{
+        margin-left :4rem;
+        margin-bottom: -30px;  }  
+      
+        .Team_container .Team_body .card{
+          width: 16rem; 
+          margin-top: 30px;
+          }
+      
+  
+  
+  /* comment  */
+  
+  #Comment h2{
+    margin-top: 1rem; 
+    margin-left: 3rem;
+  }  
+  
+  
+  /* contact  */
+  
+  #Contact .Contact_container .Contact_left img {
+     margin-left: -10px;
+  }
+  
+  #Contact .Contact_container .Contact_right {
+    width: 55%;
+    margin-left: -90px;
+    }
+  
+  #Contact .Contact_container .Contact_right form{
+  padding: 30px 30px;
+  width: 100%;
+  }
+  
+  #Contact .Contact_container .Contact_right button{
+  margin: 20px 0 auto;
+  }
+  
+      /* footer  */
+  
+      Footer{
+        height: 30vh;
+      }
+  
+      Footer .footer_container .Footer-Nav{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+  
+  
+      Footer .footer_container .icons {
+        width: 250px;
+         margin-left: 40%;
+         margin-right: auto;
+      }
+  
+      Footer .footer_container  .copyright{
+        margin-left: 45%;
+     
+        }
+  
+  
+  }
+
+
+@media(width <= 1024px) {
+
+  /* Navbar  */
+  
+  nav .navbar-nav {
+    margin-left:20%;
+  }
+  
+  nav .navbar-nav .nav-link {
+    margin-left: 5px;
+  
+  }
+
+  /* Header  */
+
+ #Header .header_container .header_right video{
+   margin-top:20px;
+   margin-left:5px;
+   margin-right: auto;
+   width:410px; height:230px;
+}
+
+/* Feature  */
+
+#Feature h2{
+  margin-left:4rem;
+} 
+
+ .feature_container .feature_body .card{
+   margin-top: 20px;
+ }
+
+
+  /* Client  */ 
+
+  
+  .Client_container .Client_right  img{
+    width:460px;
+    height:380px;
+    margin-left: 15%;
+  }
+
+  .Client_container .Client_left .card {
+    width: 12rem;
+    height: 17rem;
+    margin-left: 20px;
+     }
+
+     
+     .Client_container .Client_left .card h5{
+        margin-top: 20px;
+        height: 2rem;
+        font-size: 18px;
+        }
+     .Client_container .Client_left .card P{
+        margin-top: -10px;
+  
+        }
+
+/* Team  */
+
+    #Team h2{
+      margin-left :4rem;
+      margin-bottom: -30px;  }  
+    
+      .Team_container .Team_body .card{
+        width: 14rem; 
+        margin-top: 30px;
+        }
+    
+
+
+/* comment  */
+
+#Comment h2{
+  margin-top: 1rem; 
+  margin-left: 3rem;
+}  
+
+
+/* contact  */
+
+#Contact .Contact_container .Contact_left img {
+   margin-left: 10px;
+}
+
+
+
+#Contact .Contact_container .Contact_right form{
+padding: 30px 30px;
+width: 100%;
+}
+
+#Contact .Contact_container .Contact_right button{
+margin: 20px 0 auto;
+}
+
+    /* footer  */
+
+    Footer{
+      height: 40vh;
+    }
+
+    Footer .footer_container .Footer-Nav{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+    Footer .footer_container .icons {
+      width: 250px;
+       margin-left: 40%;
+       margin-right: auto;
+    }
+
+    Footer .footer_container  .copyright{
+      margin-left: 45%;
+   
+      }
+
+
+}
+
+
+@media(width <= 768px) {
+
+  /* Header  */
+
+  #Header .header_container .header_right video{
+    margin-top:40px;
+    margin-left:-20px;
+    width:410px; height:230px;
+ }
+
+ /* Feature  */
+
+ #Feature h2{
+  margin-left:4rem;
+} 
+
+ .feature_container .feature_body .card{
+   margin-top: 20px;
+ }
+
+
+ /* Digital  */
+
+ #Digital .Digital_container .Digital_right {
+  margin-top: 20px; 
+  width:620px;
+  height:420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Digital .Digital_container .Digital_right img {
+  height:380px;
+  width: 600px;
+  margin-left: -10px;
+}
+
+ /* skill  */
+
+ #Skill .Skill_container .Skill_left {
+  width:660px;
+  height:330px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+ #Skill .Skill_container .Skill_left img{
+  width:640px;
+  height:320px;
+}
+
+ #Skill .Skill_container .Skill_right {
+  margin-top: 50px;
+  width: 450px;
+}
+
+  /* Client  */ 
+
+  
+  .Client_container .Client_right  img{
+    width:460px;
+    height:380px;
+    margin-left: 15%;
+  }
+
+  .Client_container .Client_left .card h5{
+     margin-top: 20px;
+     }
+   
+  .Client_container .Client_left .card {
+    margin-left: auto;
+  margin-right: auto;
+  width: 20rem;
+
+     }
+   
+  
+
+  /* Team  */
+  
+  #Team h2{
+  margin-left :4rem;
+  margin-bottom: -30px;  }  
+
+  .Team_container .Team_body .card{
+    width: 20rem; 
+    margin-top: 25px;
+    }
+
+
+/* comment  */
+
+    #Comment h2{
+      margin-top: 1rem; 
+      margin-left: 3rem;
+    }  
+
+
+    /* contact  */
+
+    #Contact .Contact_container .Contact_right h2 {
+
+       margin-bottom: 20px;
+   }
+    #Contact .Contact_container .Contact_left img {
+       margin-left: 50px;
+       margin-bottom: 20px;
+   }
+
+   #Contact .Contact_container .Contact_right form{
+    padding: 40px 60px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #Contact .Contact_container .Contact_right button{
+    margin: 20px 0 auto;
+}
+
+
+    /* footer  */
+
+
+  Footer .footer_container .Footer-Nav{
+      width: 100%;
+      margin-top: -20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    Footer .footer_container .icons {
+      width: 250px;
+       margin-left: 35%;
+       margin-right: auto;
+    }
+
+     #Contact .Contact_container .Contact_right form{
+      width: 100%;
+      margin-top: -5rem;
+    }
+  
+  
+}
+
+@media(width <= 550px) {
+
+  /* Header  */
+
+  #Header .header_container .header_left h1{
+     margin:2px 0 0 20px;
+
+  }
+#Header .header_container .header_left p{
+  margin-top:-40px; 
+}
+
+  #Header .header_container .header_right video{
+    margin-top:40px;
+    margin-left:45px;
+    margin-right: auto;
+    width:410px; height:230px;
+ }
+
+ /* Feature  */
+
+ #Feature h2{
+  margin-left:2rem;
+  font-size: 1.6rem;
+  margin-bottom: -40px;
+} 
+
+ .feature_container .feature_body .card{
+   margin-top: 20px;
+ }
+
+
+ /* Digital  */
+
+ #Digital .Digital_container .row{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+
+}
+
+#Digital .Digital_container .Digital_right {
+  margin-top: 20px; 
+  width:380px;
+  height:350px;
+
+}
+
+#Digital .Digital_container .Digital_right img {
+  height:300px;
+  margin-left: -10px;
+}
+
+#Digital .Digital_container .Digital_left h2{
+     margin: .2rem 0 0 -12px;
+     width: 100%;
+}
+
+
+#Digital .Digital_container .Digital_left p{
+   margin: 10px 0 0 -10px;
+}
+#Digital .Digital_container .Digital_left {
+width: 100%;
+padding:0 40px;
+}
+
+
+ /* skill  */
+
+ #Skill .Skill_container h2{
+   margin: 2px 0 0px 10px;
+}
+
+
+ #Skill .Skill_container .Skill_left img{
+  width:400px;
+  height:320px;
+}
+ #Skill .Skill_container .Skill_left {
+ width:460px;
+  margin-left:10px;
+ 
+}
+
+ #Skill .Skill_container .Skill_right {
+  margin-top: 30px;
+  width: 350px;
+
+}
+
+  /* Client  */ 
+
+  #Client  .Client_container h2{
+    margin-left:1rem;
+    width: 20rem;
+  font-size: 1.3rem;
+  margin-top: 10px;
+}  
+
+
+.Client_container .Client_left  .card {
+  margin-left: auto;
+  margin-right: auto;
+  width: 10rem;
+  height: 44vh;
+  margin-top: -20px;
+}
+.Client_container .Client_left{
+height: 30rem;
+}
+
+   .Client_container .Client_right  {
+    width:430px;
+    margin-left: -30px;
+    margin-right: auto;
+     margin-top: -50px;
+  }
+ 
+   .Client_container .Client_right  img{
+    width:400px;
+    height:350px;
+  }
+
+  .Client_container .Client_left .card h5{
+   font-size: 14px;
+     } 
+   
+  .Client_container .Client_left .card p{
+   font-size: 10px;
+     } 
+   
+  
+
+  /* Team  */
+  
+  #Team h2{
+    font-size: 1.3rem;
+  margin-left :2rem;
+   }  
+
+  .Team_container .Team_body .card{
+    width: 20rem; 
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+/* comment  */
+
+    #Comment h2{
+      font-size: 1.3rem;
+      margin-top: 1rem; 
+      margin-left: 2rem;
+      margin-bottom: -20px;
+    }  
+
+    .Comment_container .Comment_body .card{
+        width: 20rem;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+
+    #Comment .Comment_container .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+
+   /* comment  */
+
+   
+   #Contact .Contact_container .Contact_right h2{
+    font-size: 1.3rem;
+    margin-top: 1rem; 
+    margin-left: 1rem;
+  }  
+
+    #Contact .Contact_container .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+
+    #Contact .Contact_container .Contact_left  {
+        width: 100%;
+       margin-bottom: 30px;
+   }
+
+    #Contact .Contact_container .Contact_left img {
+      margin: 0 auto;
+   }
+
+   #Contact .Contact_container .Contact_right {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+   #Contact .Contact_container .Contact_right form{
+    width: 100%;
+    margin-top: -5rem;
+  }
+
+    /* footer  */
+
+    Footer{
+      height:40vh;
+    }
+
+  Footer .footer_container .Footer-Nav{
+      width: 100%;
+      margin-top: -20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    Footer .footer_container .icons {
+      width: 250px;
+       margin-left: auto;
+       margin-right: auto;
+    }
+
+    Footer .footer_container  .copyright{
+      margin-left: 35%;
+      margin-right: auto;
+      width: 200px;
+     } 
+
+     Footer .footer_container .Footer-Nav .nav-list h3 {
+      width: 150px;
+      height: 40px;
+      margin-left: 20px;
+    }
+  }
+
+
